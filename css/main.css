@@ -1,74 +1,57 @@
-/* setup the fonts for the webpage */
 body {
-	font-family: 'Lucida Grande', sans-serif;
+	font-family: 'Lucida Grande', sans-serif;	
 }
 
-/* increase font size and grey color for the heading 1 */
 h1 {
 	color: #666666;
 	font-size: 48px;
 }
 
-/* decrease font size and orange color for the heading 2 */
 h2 {
 	color: #F07C17;
 	font-size: 28px;
 }
 
-/* fix for the auto evaluation: to align the main content heading */
 .content-title {
-	margin-top: 2px;
+	margin-top: 2px;		
 }
 
-/* margin for better spacing between image and main content */
-.content-margin {
-	padding-left: 12px;
-
-	/* fix for auto evaluation: to align the end of line */
-	padding-right: 45px;
-}
-
-/* top margin and bottom padding for the features box */
 .box-title {
 	margin-top: 18px;
-	padding-bottom: 20px;
+	padding-bottom: 20px;	
 }
 
-/* main content paragraphs set to grey color with increased line spacing */
 p {
 	color: #666666;
 	line-height: 2;
-
-	/* fix for the auto evaluation: to match the font size */
 	font-size: 14.5px;
+	font-weight: 100;
 }
 
-/* adjust the image to align with the main content */
 .img-box {
 	margin-top: 20px;
 }
 
-/*  grey text with increased line spacing and grey line border */
+.content-margin {
+	padding-left: 12px;
+    padding-right: 40px;
+}
+
 .mug-features {
-
-	color: #666666;
-	line-height: 2;
-
 	border-color: #666666; 
-	border-style: solid;	
+	border-style: solid;
+	padding-top: 10px;
+	padding-left: 32px;
+	padding-bottom: 40px;
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 	border-left-width: 1px;
 	border-right-width: 1px;
-
-	/* fix for auto evaluation: to align the content as given in the mock up */
+	color: #666666;
+	line-height: 2;
 	margin-top: 30px;
-	padding-top: 10px;
-	padding-left: 32px;
-	padding-bottom: 40px;
 }
 
-/* fix for auto evaluation: to align the as shown in the mock up */
 .page-position {
 	margin-top: 25px;
 }
